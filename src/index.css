@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --spacing-0: 0;
+  --spacing-1: 1rem;
+  --spacing-2: 2rem;
+  --spacing-3: 3rem;
+  --spacing-4: 4rem;
+  --spacing-5: 5rem;
+  --spacing-6: 6rem;
+  --spacing-7: 7rem;
+
+  --color-avocado-100: oklch(0.99 0 0);
+  --color-avocado-200: oklch(0.98 0.04 113.22);
+  --color-avocado-300: oklch(0.94 0.11 115.03);
+  --color-avocado-400: oklch(0.92 0.19 114.08);
+  --color-avocado-500: oklch(0.84 0.18 117.33);
+  --color-avocado-600: oklch(0.53 0.12 118.34);
+
+  --text-xl: 1.6rem;
+  --text-lg: 1.4rem;
+  --text-md: 1.2rem;
+  --text-sm: 1rem;
+  --text-xs: 1rem;
+
+  --font-inter: "Inter", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+
+  /* ... */
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: var(--text-xl);
+  font-family: var(--font-inter);
+}
