@@ -31,6 +31,26 @@
   /* ... */
 }
 
+@utility container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: var(--spacing-1);
+}
+
+@layer base {
+  h1 {
+    margin-bottom: var(--spacing-2);
+  }
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: var(--spacing-1);
+  }
+}
+
 html {
   font-size: 62.5%;
 }
@@ -38,4 +58,9 @@ html {
 body {
   font-size: var(--text-xl);
   font-family: var(--font-inter);
+  height: screan;
+}
+
+p {
+  margin-bottom: 1rem;
 }

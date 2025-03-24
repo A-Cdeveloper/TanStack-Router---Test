@@ -1,29 +1,67 @@
 {
-    "posts": [
+    "news": [
         {
-            "id": "1",
-            "title": "a title",
-            "views": 100
+            "id": 1,
+            "title": "Breaking: Major Tech Merger Announced",
+            "body": "Two leading tech giants have announced a historic merger...",
+            "authorId": 2
         },
         {
-            "id": "2",
-            "title": "another title",
-            "views": 200
-        }
-    ],
-    "comments": [
-        {
-            "id": "1",
-            "text": "a comment about post 1",
-            "postId": "1"
+            "id": 2,
+            "title": "New Study Reveals Climate Change Impact",
+            "body": "A recent study highlights alarming trends in global climate...",
+            "authorId": 1
         },
         {
-            "id": "2",
-            "text": "another comment about post 1",
-            "postId": "1"
+            "id": 3,
+            "title": "Sports Update: Championship Finals Set",
+            "body": "The much-awaited championship finals will feature top teams...",
+            "authorId": 3
+        },
+        {
+            "id": 4,
+            "title": "Economic Outlook: Market Trends for 2025",
+            "body": "Experts predict a volatile market as global conditions shift...",
+            "authorId": 4
+        },
+        {
+            "id": 5,
+            "title": "Space Exploration: NASA's New Mission Plans",
+            "body": "NASA has unveiled its ambitious plans for the next Mars mission...",
+            "authorId": 2
+        },
+        {
+            "id": 6,
+            "title": "Healthcare Breakthrough: New Cancer Treatment",
+            "body": "Scientists have developed a promising new therapy for cancer...",
+            "authorId": 5
         }
     ],
-    "profile": {
-        "name": "typicode"
-    }
+    "authors": [
+        {
+            "id": 1,
+            "fullName": "Alice Johnson",
+            "email": "alice.johnson@example.com"
+        },
+        {
+            "id": 2,
+            "fullName": "Michael Smith",
+            "email": "michael.smith@example.com"
+        },
+        {
+            "id": 3,
+            "fullName": "Samantha Lee",
+            "email": "samantha.lee@example.com"
+        },
+        {
+            "id": 4,
+            "fullName": "David Brown",
+            "email": "david.brown@example.com"
+        },
+        {
+            "id": 5,
+            "fullName": "Emily Clark",
+            "email": "emily.clark@example.com"
+        }
+    ]
 }
